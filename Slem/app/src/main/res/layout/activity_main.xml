@@ -13,7 +13,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="48dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="47dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toRightOf="@+id/w_el11"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,13 +34,13 @@
         android:id="@+id/w_el13"
         android:layout_width="51dp"
         android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="47dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/w_el12"
-        android:layout_marginLeft="8dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/w_el21"
@@ -49,7 +49,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/w_el11" />
@@ -61,7 +61,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toRightOf="@+id/w_el21"
         app:layout_constraintTop_toBottomOf="@+id/w_el12" />
@@ -72,7 +72,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/w_el13"
         app:layout_constraintLeft_toRightOf="@+id/w_el22"
@@ -85,7 +85,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/w_el21" />
@@ -97,7 +97,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintLeft_toRightOf="@+id/w_el31"
         app:layout_constraintTop_toBottomOf="@+id/w_el22" />
@@ -108,7 +108,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/w_el23"
         app:layout_constraintLeft_toRightOf="@+id/w_el32"
@@ -118,12 +118,12 @@
         android:id="@+id/w_v1"
         android:layout_width="51dp"
         android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
         app:layout_constraintLeft_toRightOf="@+id/w_el13"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/w_v2"
@@ -131,7 +131,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         app:layout_constraintTop_toBottomOf="@+id/w_v1"
         app:layout_constraintLeft_toRightOf="@+id/w_el23"
         android:layout_marginLeft="16dp" />
@@ -142,7 +142,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         app:layout_constraintTop_toBottomOf="@+id/w_v2"
         app:layout_constraintLeft_toRightOf="@+id/w_el33"
         android:layout_marginLeft="16dp" />
