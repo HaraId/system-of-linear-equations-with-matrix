@@ -6,13 +6,179 @@
     android:layout_height="match_parent"
     tools:context="com.slem.harald.slem.MainActivity">
 
+    <EditText
+        android:id="@+id/w_el11"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/w_el12"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toRightOf="@+id/w_el11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/w_el13"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/w_el12"
+        android:layout_marginLeft="8dp" />
+
+    <EditText
+        android:id="@+id/w_el21"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_el11" />
+
+    <EditText
+        android:id="@+id/w_el22"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toRightOf="@+id/w_el21"
+        app:layout_constraintTop_toBottomOf="@+id/w_el12" />
+
+    <EditText
+        android:id="@+id/w_el23"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/w_el13"
+        app:layout_constraintLeft_toRightOf="@+id/w_el22"
+        android:layout_marginLeft="8dp" />
+
+    <EditText
+        android:id="@+id/w_el31"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_el21" />
+
+    <EditText
+        android:id="@+id/w_el32"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toRightOf="@+id/w_el31"
+        app:layout_constraintTop_toBottomOf="@+id/w_el22" />
+
+    <EditText
+        android:id="@+id/w_el33"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/w_el23"
+        app:layout_constraintLeft_toRightOf="@+id/w_el32"
+        android:layout_marginLeft="8dp" />
+
+    <EditText
+        android:id="@+id/w_v1"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp"
+        app:layout_constraintLeft_toRightOf="@+id/w_el13"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/w_v2"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/w_v1"
+        app:layout_constraintLeft_toRightOf="@+id/w_el23"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/w_v3"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/w_v2"
+        app:layout_constraintLeft_toRightOf="@+id/w_el33"
+        android:layout_marginLeft="16dp" />
+
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="57dp"
+        android:layout_height="21dp"
+        android:text="values"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="193dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/outPlain"
+        android:layout_width="350dp"
+        android:layout_height="302dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@android:drawable/button_onoff_indicator_on"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/w_el32" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="87dp"
+        android:text="submit"
+        app:layout_constraintLeft_toRightOf="@+id/w_v2"
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
